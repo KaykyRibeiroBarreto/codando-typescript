@@ -4,5 +4,5 @@ function saudacao(nome, saudacao) {
 }
 console.log(saudacao("kayky"));
 console.log(saudacao("kayky", "eaí"));
-// com o uso de operadores lógicos '||' podemos definir valores padrão para os parâmetros opcionais.
-// No exemplo acima, se o parâmetro saudacao não for passado, ele assume o valor "olá".
+// A função saudacao recebe dois parâmetros: nome (obrigatório) e saudacao (opcional).
+// Se saudacao não for fornecido, ela assume o valor padrão "olá".
